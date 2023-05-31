@@ -100,6 +100,73 @@ console.log(fav);
 
 
 //Numbers
-//boolean
+//math operators
+//- + -*/** %
+console.log(6 % 2); //0
+console.log(5 % 2); //1
+
+console.log(5 / 2); //2.5
+//order of operations - bodmas, pemdas
+//
+console.log(6 / 3 + 5);//7
+//example 
+let balance = 500;
+const t1 = 20;
+const t2 = 100;
+const d1 = 200;
+console.log(balance - t1 - t2 + d1); //580
+//Increasing the Value of totals
+let likes = 0;
+likes += 1;
+likes += 1;
+likes += 20;
+likes++;
+likes--;
+likes -= 2
+console.log(likes);
+
+//boolean - True or False
+console.log(true);  
+console.log(false);                                
+     //example
+const continet = "America"; 
+const country2 = "USA";
+let population = 2099000;
+const isIsland = false
+const language = "English"
+console.log(continet, country2, population);
+population /= 2;
+population+=1
+console.log(population);
+//template literals
+const describe = `${country2} is in ${continet} and its population of ${population} people speak ${language}`
+console.log(describe);
+const describe2 = `${country2} as a country speak majorly ${language}`
+console.log(describe2);
+// boolean true or false--comparison operators(- < > <= >= ==)
+console.log(6 > 3);//true
+console.log(6 < 3);//false
+console.log(5 >= 5.0);//true
+//logical operators and - or - not
+console.log(5 > 6 && 2 == 2);//AND //false
+console.log(6 > 7 || 2 === 2); //OR //true
+//Conversion and coersion
+//=Conversion
+//string To numbers
+const str = "90"
+console.log(typeof str);
+const converted = Number(str);
+console.log(typeof converted);
+console.log(converted);
+
+//Numbers to strings
+const num = 9000000;
+console.log(typeof num);
+const converted2 = String(num);
+console.log(typeof converted2);
+console.log(converted2);
+
+//Corecion
+
 //Null
 //Undefined
